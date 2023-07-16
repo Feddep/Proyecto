@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas: " header " " main " " main " " footer ";
+    grid-template-rows:    11rem;
+    grid-template-columns:  100% ;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/*//////////////////////////////////////////////////////////////////
+////////////////////////// NAV /////////////////////////////////////
+//////////////////////////////////////////////////////////////////*/
+
+
+.header__nav {
+    background-color: rgb(255, 255, 255);
+    height: 15vh;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#nav_header {
+    background-color: bisque;
+    flex-grow: 3;
+}
+
+#menu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fedeseis{
+    font-size: 1rem;
+}
+
+/*////////////////////////////////////////////////////////////////
+///////////////////////////// MAIN ///////////////////////////////
+////////////////////////////////////////////////////////////////*/
+
+
+.fedesiete {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav__img {
+    height: 6rem;
+    
+}
+
+
+nav {
+    background-color: grey;
+    flex-grow: 0, 5;
+}
+
+.fedeuno{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+article {
+    background-color: rgb(179, 178, 178);
+    flex-grow: 5;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fededos {
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.fedetres{
+    margin: auto;
+}
+
+.fedecuatro{
+    text-align: center;
+}
+
+.final {
+    background-color: bisque;
+    height: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fedecinco{
+    background-color: bisque;
+}
+
+.img1 {
+    height: 25vh;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+}
+
+.img2 {
+    height: 5rem;
+    margin: 0%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+li {
+    border: 2px solid #030303;
+    background-color: beige;
+}
+
+/*////////////////////////////////////////////////////////////////
+///////////////////////////// MI CUENTA //////////////////////////
+////////////////////////////////////////////////////////////////*/
+
+.main_micuenta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.maindos_micuenta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.maintres_micuenta{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 653px) {
+    main {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .fedeuno {
+    display: flex;
+    flex-direction: row;
+   }
+
+   article {
+    margin: 0%;
+   }
+}
