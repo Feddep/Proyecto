@@ -1,0 +1,23 @@
+.trabajouno {
+    margin-bottom: 5rem;
+
+    .trabajocuatro {
+        margin-bottom: 5rem;
+        margin-top: 2rem;
+
+        .trabajodos {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30rem;
+
+            .trabajotres {
+                background-color: rgb(179, 178, 178);
+                margin-left: 10px;
+                margin-right: 10px;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
